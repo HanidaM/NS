@@ -13,6 +13,7 @@ public class Tour {
     }
 
     public Tour(Point a, Point b, Point c, Point d) {
+        Node first = new Node();
         Node second = new Node();
         Node third = new Node();
         Node fourth = new Node();
